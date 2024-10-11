@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.description = "Adds multipart support (SOAP with Attachments) to Savon"
   s.required_ruby_version = '>= 1.9.2'
 
-  s.add_dependency "savon", "~> 2"
+  s.add_dependency "savon", ">= 2", "<= 4"
   s.add_dependency "mail", "~> 2"
 
   s.add_development_dependency "rake"
